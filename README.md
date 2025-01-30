@@ -29,8 +29,10 @@ Add the following line to your php.ini file:
 
 Step 2: Install MongoDB Driver via Composer
 Once the PHP extension is installed, install the MongoDB driver using Composer:
+Run the following command to install the MongoDB library via Composer:
+
 ```bash
-   composer require mongodb/mongodb
+composer require mongodb/mongodb
 
 
 
