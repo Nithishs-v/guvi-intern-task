@@ -17,9 +17,18 @@ it is a internship task to create a simple login,register and user profile.
 ![register](https://github.com/user-attachments/assets/0b1355d0-1ed3-405c-9a72-5961292578d4)
 ![sqldb](https://github.com/user-attachments/assets/fa79c1f0-5c7b-4a33-9b94-2cd99d99a626)
 ## Installation
-To install mongodb on your system
-open the command prompt
-give the project path
-1. install the mongodb:
-   ```bash
-   composer require mongodb/mongodb
+Step 1: Install MongoDB PHP Extension
+Before using MongoDB with PHP, you need to install the MongoDB PHP extension.
+
+## For Windows
+Download the appropriate .dll file from PECL: MongoDB.
+Place it in the ext folder of your PHP installation.
+Add the following line to your php.ini file:
+```bash
+   extension=mongodb
+Step 2: Install MongoDB Driver via Composer
+Once the PHP extension is installed, install the MongoDB driver using Composer:
+```bash
+composer require mongodb/mongodb
+
+
