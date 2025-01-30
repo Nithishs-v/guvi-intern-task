@@ -15,5 +15,11 @@ it is a internship task to create a simple login,register and user profile.
 ![mongodb](https://github.com/user-attachments/assets/12cc3fe3-c0da-4af2-a9e0-cd49634eedf3)
 ![profile](https://github.com/user-attachments/assets/0b773931-da74-47db-9a58-1d7430c33eb3)
 ![register](https://github.com/user-attachments/assets/0b1355d0-1ed3-405c-9a72-5961292578d4)
-
 ![sqldb](https://github.com/user-attachments/assets/fa79c1f0-5c7b-4a33-9b94-2cd99d99a626)
+## Installation
+To install mongodb on your system
+open the command prompt
+give the project path
+1. install the mongodb:
+   ```bash
+   composer require mongodb/mongodb
