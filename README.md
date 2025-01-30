@@ -32,6 +32,5 @@ Once the PHP extension is installed, install the MongoDB driver using Composer:
    composer require mongodb/mongodb
 
 
-# Redis Installation
 
 
