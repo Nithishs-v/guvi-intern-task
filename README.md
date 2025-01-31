@@ -29,6 +29,8 @@ Step 2: Install MongoDB Driver via Composer
 Once the PHP extension is installed, install the MongoDB driver using Composer:
 ```bash
    extension=mongodb
+```
+```bash
    composer require mongodb/mongodb
 ```
 composer install
