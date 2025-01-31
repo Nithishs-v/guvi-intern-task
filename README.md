@@ -16,7 +16,7 @@ it is a internship task to create a simple login,register and user profile.
 ![profile](https://github.com/user-attachments/assets/0b773931-da74-47db-9a58-1d7430c33eb3)
 ![register](https://github.com/user-attachments/assets/0b1355d0-1ed3-405c-9a72-5961292578d4)
 ![sqldb](https://github.com/user-attachments/assets/fa79c1f0-5c7b-4a33-9b94-2cd99d99a626)
-## Installation
+## Installation of MongoDB
 Step 1: Install MongoDB PHP Extension
 Before using MongoDB with PHP, you need to install the MongoDB PHP extension.
 
@@ -33,7 +33,14 @@ Once the PHP extension is installed, install the MongoDB driver using Composer:
 ```bash
    composer require mongodb/mongodb
 ```
-composer install
+## Installation of Redis
+Step 1: Install Redis PHP Extension
 
+```bash
+   redis-server
+```
+```bash
+   redis-cli
+```
 
 
