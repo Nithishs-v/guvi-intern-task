@@ -1,6 +1,6 @@
 document.getElementById('loginButton').addEventListener('click', function() {
-    window.location.href = 'login.php';  
+    window.location.href = 'login.html';  
 });
 
 document.getElementById('signupButton').addEventListener('click', function() {
-    window.location.href = 'registration.php'; });
+    window.location.href = 'registration.html'; });
