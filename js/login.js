@@ -1,42 +1,34 @@
+$(document).ready(function () {
+    $("form").submit(function (event) {
+        event.preventDefault(); // Prevent default form submission
 
-$(document).ready(function(){
-    $("#login-form").submit(function (e){
-
-        e.preventDefault();
-
-        // Retriving the username and password
-        var email = $("input[name='email']").val();
-        var password = $("input[name='password']").val();
-        // alert(username);
+        var formData = {
+            email: $("input[name='email']").val(),
+            password: $("input[name='password']").val(),
+            login: $("input[name='login']").val()
+        };
 
         $.ajax({
-            url: "login.php",
-            method: "POST",
-            data: {
-                email: email,
-                password: password,
-            },
-            success: function (resp) {
-                // alert(data);
-                var res = JSON.stringify(resp);
-                var res_status = JSON.parse(res);
-                // alert(res_status[33] + "   " +res_status);
-                if(res_status[33]=='t'){
-                    alert("User Successfully Login");
-                    var url = "profile.php";
-                    $(location).attr('href',url);
-                }
-                else{
-                    alert("Invalid Credentials");
-                }
-                
-            },
-            error: function(xhr, textStatus, errorThrown){
-                console.log(xhr.responseText);
-            },
-            
-        });
+            type: "POST",
+            url: "php/login.php",
+            data: formData,
+            dataType: "json",
+            success: function (response) {
+                if (response.status === "success") {
+                    alert("Login successful!");
 
+                    // Store user data in localStorage (e.g., token, user ID, etc.)
+                    localStorage.setItem("userEmail", response.email); // Store email or any identifier
+                    localStorage.setItem("userToken", response.token); // Store token if provided (for example)
+
+                    window.location.href = "../profile.html"; // Redirect to profile/dashboard
+                } else {
+                    alert("Login failed: " + response.message);
+                }
+            },
+            error: function () {
+                alert("Error connecting to server.");
+            }
+        });
     });
 });
-
