@@ -59,5 +59,5 @@ Open Command Prompt and run
    redis-cli
 
 ```
-
+If you see 127.0.0.1:6379>, Redis is running.
 
