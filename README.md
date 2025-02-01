@@ -17,9 +17,9 @@ it is a internship task to create a simple login,register and user profile.
 ![mongodb](https://github.com/user-attachments/assets/12cc3fe3-c0da-4af2-a9e0-cd49634eedf3)
 ![sqldb](https://github.com/user-attachments/assets/fa79c1f0-5c7b-4a33-9b94-2cd99d99a626)
 ## Installation
- ##MongoDb##
- ##Redis##
- ##Xampp##
+- **MongoDb** 
+- **Redis**
+- **Xampp**
 Step 1: Install MongoDB PHP Extension
 Before using MongoDB with PHP, you need to install the MongoDB PHP extension.
 
