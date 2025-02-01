@@ -20,10 +20,9 @@ it is a internship task to create a simple login,register and user profile.
 - **MongoDb** 
 - **Redis**
 - **Xampp**
+  ##  Install MongoDB PHP Extension  For Windows
 Step 1: Install MongoDB PHP Extension
 Before using MongoDB with PHP, you need to install the MongoDB PHP extension.
-
-## For Windows
 Download the appropriate .dll file from PECL: MongoDB.
 Place it in the ext folder of your PHP installation.
 Add the following line to your php.ini file:
