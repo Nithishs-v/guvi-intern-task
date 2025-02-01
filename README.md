@@ -46,7 +46,8 @@ Edit
 
 
 ```bash
-   redis-server
+   extension=redis
+
 ```
 ```bash
    redis-cli
