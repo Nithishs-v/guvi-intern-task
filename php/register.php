@@ -6,7 +6,7 @@ if (isset($_SESSION["user"])) {
 ?>
 <?php
         if (isset($_POST["submit"])) {
-           $fullName = $_POST["fullname"];
+           $fullName = $_POST["full_name"];
            $email = $_POST["email"];
            $password = $_POST["password"];
            $passwordRepeat = $_POST["repeat_password"];
