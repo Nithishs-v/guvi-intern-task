@@ -38,6 +38,7 @@ Once the PHP extension is installed, install the MongoDB driver using Composer:
 ## Install Redis PHP Extension For Windows
 Step 1: Install PHP Redis Extension
 Download the correct Redis extension for your PHP version from PECL: PHP Redis Extension.
+
 Step 2:Place the downloaded .dll file into the ext directory of your PHP installation.
 Edit your php.ini file and add:
 ini
@@ -49,10 +50,14 @@ Edit
    extension=redis
 
 ```
+Step 3:
+Open Command Prompt and run
+```bash
+   redis-server
+```
 ```bash
    redis-cli
+
 ```
-## Databases
-mysql
 
 
