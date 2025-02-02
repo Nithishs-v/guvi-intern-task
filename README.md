@@ -68,3 +68,9 @@ In this task, I can use two different databases: MySQL and MongoDB.
 - **MongoDb:** used  in user Profile page to add and update  the data
 - Collection - Guvi
 - Documents -profile
+  ```bash
+   use guvi
+```
+ ```bash
+ db["profile"].find()
+```
