@@ -18,7 +18,7 @@ $(document).ready(function () {
             success: function (response) {
                 if (response.status === "success") {
                     alert("Registration successful! Redirecting to login...");
-                    window.location.href = "login.html"; // Redirect to login page
+                    window.location.href = "../login.html"; // Redirect to login page
                 } else {
                     alert("Error: " + response.message);
                 }
