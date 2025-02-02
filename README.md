@@ -62,5 +62,9 @@ Open Command Prompt and run
 If you see 127.0.0.1:6379>, Redis is running.
 ## DataBase
 In this task, I can use two different databases: MySQL and MongoDB.
-- **MYSql:** used in Register Page and Login Page.
+- **MYSql:** used in Register Page and Login Page. 
+-  Database - new
+-  Table  -users
 - **MongoDb:** used  in user Profile page to add and update  the data
+- Collection - Guvi
+- Documents -profile
