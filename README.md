@@ -60,4 +60,5 @@ Open Command Prompt and run
 
 ```
 If you see 127.0.0.1:6379>, Redis is running.
-
+## DataBase
+In this task, I can use two different databases: MySQL and MongoDB.
